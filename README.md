@@ -1,0 +1,1 @@
+A landing page based on the assignment fron [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page).
