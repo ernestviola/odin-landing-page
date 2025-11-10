@@ -36,38 +36,101 @@ nav {
 
 main {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero {
   background-color: #1f2937;
-  padding: 16px 32px;
   color: #f9faf8;
+  padding: 80px 200px;
   display: flex;
+  gap: 16px;
 }
 
 .hero h1 {
   font-size: 48px;
   font-weight: 900;
+  margin: 0px;
 }
 
 .hero img {
-  flex: 1 0 300px;
+  flex: 1 0 400px;
   background-color: #b6b6b6;
 }
 
-.content {
+.hero button {
+  background-color: #3382f6;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 5px;
+  color: white;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
 .card-container {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 100px;
+  margin: 48px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 180px;
 }
 
 .card img {
-  background-color: #b6b6b6;
-  flex: 0 0 150px;
+  background-color: white;
+  border: 2px solid #3382f6;
+  border-radius: 8px;
+  flex: 0 0 180px;
+}
+
+.quote-container {
+  padding: 80px 200px;
+  background-color: #e5e7eb;
+  text-align: right;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.quotee {
+  font-weight: 700;
+}
+
+.call-to-action {
+  margin: 80px 200px;
+  flex: 1 0 100px;
+  background-color: #3382f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-to-action div {
+  color: #f9faf8;
+  margin: 0px;
+}
+
+.call-to-action button {
+  flex: none;
+  background-color: #3382f6;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 
 footer {
